@@ -1,17 +1,17 @@
-.profile-section {
+.profileSection {
     background-color: white;
     border: 3px solid black;
     border-radius: 20px
     
   }
 
-  .profile-info {
+  .profileInfo {
     width: 100%;
     margin: 0 auto;
     box-sizing: border-box;
     padding: 25px 100px;
   }
-  .profile-image {
+  .profileImage {
     border-radius: 50%;
     background-color: black;
     width: 125px;
@@ -19,14 +19,14 @@
     margin: 0 auto;
   }
 
-  .profile-name {
+  .profileName {
     color: black;
     font-weight: 700;
     font-size: 20px;
     display: flex;
     justify-content: center;
   }
-  .profile-tag {
+  .profileTag {
     color: gray;
     font-weight: 400;
     font-size: 20px;
@@ -35,14 +35,14 @@
     justify-content: center;
   }
 
-  .profile-location {
+  .profileLocation {
     color: gray;
     font-weight: 400;
     font-size: 20px;
     margin: 0 auto;
   }
   
-  .profile-status {
+  .profileStatus {
     color: black;
     list-style-type: none;
     padding: 0;
@@ -50,7 +50,7 @@
     justify-content: space-around;
     margin: 0;
   }
-  .profile-status-info {
+  .profileStatusInfo {
     display: flex;
     flex-direction: column;
     border: 1px solid black;
@@ -59,13 +59,13 @@
     
   }
 
-  .profile-status-info:first-child {
+  .profileStatusInfo:first-child {
     border-bottom-left-radius: 18px;
   }
-  .profile-status-info:last-child {
+  .profileStatusInfo:last-child {
     border-bottom-right-radius: 18px;
   }
-  .foll-vie-likes {
+  .follVieLikes {
     display: flex;
     justify-content: center;
     margin-top: 10px;
@@ -73,7 +73,7 @@
     font-weight: 500;
   }
 
-  .numbers-info {
+  .numbersInfo {
     display: flex;
     justify-content: center;
     margin-top: 10px;
