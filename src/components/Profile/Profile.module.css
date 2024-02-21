@@ -1,0 +1,83 @@
+.profile-section {
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 20px
+    
+  }
+
+  .profile-info {
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 25px 100px;
+  }
+  .profile-image {
+    border-radius: 50%;
+    background-color: black;
+    width: 125px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .profile-name {
+    color: black;
+    font-weight: 700;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  .profile-tag {
+    color: gray;
+    font-weight: 400;
+    font-size: 20px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  .profile-location {
+    color: gray;
+    font-weight: 400;
+    font-size: 20px;
+    margin: 0 auto;
+  }
+  
+  .profile-status {
+    color: black;
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+  }
+  .profile-status-info {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    background-color: gray;
+    flex-basis: calc(100% / 3);
+    
+  }
+
+  .profile-status-info:first-child {
+    border-bottom-left-radius: 18px;
+  }
+  .profile-status-info:last-child {
+    border-bottom-right-radius: 18px;
+  }
+  .foll-vie-likes {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 17px;
+    font-weight: 500;
+  }
+
+  .numbers-info {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
