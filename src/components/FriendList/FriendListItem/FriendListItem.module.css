@@ -1,0 +1,23 @@
+.FriendListItemPhoto {
+    margin: 0 auto;
+    
+}
+.FriendListItemName {
+    color: black;
+    margin: 3px auto;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.FriendListItemStatus {
+    margin: 0 auto;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.FriendListItemStatus.online {
+    color: green;
+}
+.FriendListItemStatus.offline {
+    color: red;
+}
